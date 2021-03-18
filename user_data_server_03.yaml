@@ -87,6 +87,6 @@ runcmd:
   - [ systemctl, enable, consul.service ]
   - [ systemctl, start, --no-block, consul.service ]
 power_state:
-  delay: "+120"
+  delay: "+30"
   mode: reboot
   condition: True
