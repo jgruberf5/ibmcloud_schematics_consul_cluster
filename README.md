@@ -122,6 +122,6 @@ f5-consul-server-03-67161b76-b498-7d3b-9bea-b8252bf1a59e  10.240.131.41:8301  al
 
 ## Access the HTTP API for your Cluster
 
-Access to your cluster's HTTP API requires the use of mTLS authentication. You simply use the client certificate and key you generated to access your cluster on the standard HTTP API REST endpoints.
+Access to your cluster's HTTP API requires the use of mTLS authentication. You simply use the client certificate and key you generated to access your cluster on the standard HTTP API REST endpoints using only HTTPS (port 8501 for consul). The HTTP (unencrypted) listeners (port 8500) have been disabled.
 
 [Consul API Documentation](https://www.consul.io/api-docs)
