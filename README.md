@@ -53,7 +53,9 @@ This will create 3 server key and certificates signed by the CA key.
 
 ### Client Key and Certificate
 
+```bash
 consul tls cert create -client
+```
 
 Take the content of these files and place the exact text in the terraform variables.
 
